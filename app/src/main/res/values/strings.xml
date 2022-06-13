@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">🅸🅼🅰🅲🆃🅷🅾🅽/></string>
+    <string name="Get_started">𝐆𝐞𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="About_the_app"> This app is basically all about learning and exploring new Tech stacks. </string>
+    <string name="Point_1">1. In this app you will get all the free resources required for your better career in field of IT.</string>
+    <string name="Pont_2">2. Using this app,You can learn more than 10 different programming languages without spending a single penny. </string>
+    <string name="Point3">3. This app has E-books , Youtube Videos Lectures, Complete tutorial,Udemy free courses , Project Ideas, Documentations, GFG  Articles, Notes and many more for all programming languages like Java, C,C++, Python, React, Html, CSS, JavaScript,Firebase,Kotlin , Swift, Php. </string>
+    <string name="Point4">4. Apart from programming languages  you can also learn Core Fundamentals Subjects of Computer Science like DSA, Operating Systems, DBMS,OOPS etc.. which is very important for placement point of view. Love Babbar DSA Sheet(450 Questions) and Striver DSA Sheet is also added in the app.</string>
+    <string name="Point5">5. In this app, you will also get the proper roadmap and guidance for cracking Paid Internships,Building a Amazing Resumes,How to crack Google Summer of Code,Project Ideas and other stuffs..</string>
+    <string name="Point6">6. Whatsapp API is integrated for your feedback,Don\'t forget to give a feedback by clicking on that floating icon in Home page of the app. </string>
+</resources>

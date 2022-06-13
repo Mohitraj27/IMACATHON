@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bluej"
+    >
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-9dp"
+
+            android:layout_marginBottom="17dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingStart="12dp"
+
+            android:text="1. Java for Dummies"
+            android:textColor="#144970"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:text="Programming with Java For Dummies, 3rd Edition is certain to put more first-time programmers and Java beginners on the road to Java mastery.   "
+            android:textColor="#144970"
+
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="49dp"
+            android:onClick="Book_1"
+            android:text="Download" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-9dp"
+
+            android:layout_marginBottom="17dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingStart="12dp"
+
+            android:text="2. Learn Java  with Hands-on Project"
+            android:textColor="#144970"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="35dp"
+            android:padding="10dp"
+            android:text="An Introduction to Programming with Java: The Complete Reference Java Programming for Beginners: A Practical Guide to Learn Java in 10 Days or Less, with Hands-on Projects.
+Written by Neos Thanh   "
+
+            android:textColor="#144970"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="49dp"
+            android:onClick="Book_2"
+            android:text="Download" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="-239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-9dp"
+
+            android:layout_marginBottom="17dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingStart="14dp"
+
+            android:text="3. Mastering Java"
+            android:textColor="#144970"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="35dp"
+            android:padding="10dp"
+            android:text="An Effective Project Based Approach including Web Development, Data Structures, GUI Programming and Object Oriented Programming (Beginner to Advanced)"
+
+            android:textColor="#144970"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="49dp"
+            android:onClick="Book_3"
+            android:text="Download" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingStart="14dp"
+        android:text="4. Java Complete Placement Course"
+        android:layout_marginTop="380dp"
+        android:textColor="#144970"
+        android:textSize="25sp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:layout_width="223dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:onClick="Full_playlist"
+        android:layout_marginEnd="19dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/java_playlist_course"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.imacathon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IMACATHON">
+        <activity
+            android:name=".OOPS"
+            android:exported="true"
+            android:label="🅾🅾🅿🆂"
+            android:parentActivityName=".Home_Page"/>
+        <activity
+            android:name=".Operating_systems"
+            android:exported="true"
+            android:label="🅾🅿🅴🆁🅰🆃🅸🅽🅶 🆂🆈🆂🆃🅴🅼🆂"
+            android:parentActivityName=".Home_Page"/>
+        <activity
+            android:name=".DBMS"
+            android:exported="true"
+            android:label="🅳🅱🅼🆂"
+            android:parentActivityName=".Home_Page"/>
+        <activity
+            android:name=".DSA"
+            android:label="🅳🅰🆃🅰 🆂🆃🆁🆄🅲🆃🆄🆁🅴🆂"
+            android:exported="true"
+            android:parentActivityName=".Home_Page"/>
+        <activity
+            android:name=".About_the_app"
+            android:exported="true"
+            android:label="🅰🅱🅾🆄🆃 🆃🅷🅴 🅰🅿🅿"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Php"
+            android:exported="true"
+            android:label="🅿🅷🅿"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".Swift"
+            android:exported="true"
+            android:label="🆂🆆🅸🅵🆃"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".Kotlin"
+            android:exported="true"
+            android:label="🅺🅾🆃🅻🅸🅽"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".Home_Page"
+            android:exported="true" />
+        <activity
+            android:name=".firbase"
+            android:exported="true"
+            android:label="🅵🅸🆁🅴🅱🅰🆂🅴"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".Bluej"
+            android:exported="true"
+            android:label="🅹🅰🆅🅰"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".HTML_CSS"
+            android:exported="true"
+            android:label="🅷🆃🅼🅻_🅲🆂🆂"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".C_pp"
+            android:exported="true"
+            android:label="🅲++"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".React"
+            android:exported="true"
+            android:label="🆁🅴🅰🅲🆃"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".C_langugage"
+            android:exported="true"
+            android:label="🅲"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".Java_script"
+            android:exported="true"
+            android:label="🅹🅰🆅🅰🆂🅲🆁🅸🅿🆃"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".Python"
+            android:exported="true"
+            android:label="🅿🆈🆃🅷🅾🅽"
+            android:parentActivityName=".Home_Page" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

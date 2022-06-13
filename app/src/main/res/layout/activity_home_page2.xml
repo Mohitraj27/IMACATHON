@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Page">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.995"
+        tools:ignore="UnknownId">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 𝐚𝐧𝐝 𝐓𝐨𝐨𝐥𝐬"
+                android:textColor="#144970"
+                android:textSize="29sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.708" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="00dp"
+                android:fillViewport="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Java_icon"
+                        android:layout_width="106dp"
+                        android:layout_height="103dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/java_icon" />
+
+                    <ImageView
+                        android:id="@+id/python_icon"
+                        android:layout_width="97dp"
+                        android:layout_height="98dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/python_icon" />
+
+                    <ImageView
+                        android:id="@+id/cpp_logo_icon"
+                        android:layout_width="94dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/c___icon" />
+
+                    <ImageView
+                        android:id="@+id/c_logo_icon"
+                        android:layout_width="106dp"
+                        android:layout_height="98dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/c_logo" />
+
+
+                    <ImageView
+                        android:id="@+id/react_icon"
+                        android:layout_width="165dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/react_icon" />
+                    <ImageView
+                        android:id="@+id/html_css_icon"
+                        android:layout_width="165dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/html_css" />
+
+                    <ImageView
+                        android:id="@+id/javascript_logo"
+                        android:layout_width="128dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/javascript_logo" />
+                    <ImageView
+                        android:id="@+id/firebase_icon"
+                        android:layout_width="128dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/firebase_icon" />
+                    <ImageView
+                        android:id="@+id/kotlin_icon"
+                        android:layout_width="128dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+
+                        android:src="@drawable/kotlin" />
+                    <ImageView
+                        android:id="@+id/swift_icon"
+                        android:layout_width="128dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+
+                        android:src="@drawable/swift_logo" />
+                    <ImageView
+                        android:id="@+id/php_icon"
+                        android:layout_width="128dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+
+                        android:src="@drawable/php_icon" />
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ViewFlipper
+                android:id="@+id/v_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="120dp"
+                >
+
+                <FrameLayout
+                    android:id="@+id/flFragment"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp">
+
+                </FrameLayout>
+            </ViewFlipper>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="100dp"
+                android:onClick="Striver_DSA_sheet"
+                android:text="𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐭𝐫𝐢𝐯𝐞𝐫 𝐃𝐒𝐀 𝐒𝐡𝐞𝐞𝐭."
+                android:textColor="#144970"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.708" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="290dp"
+                android:onClick="Love_Babar_DSA"
+
+                android:text="𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐨𝐯𝐞 𝐁𝐚𝐛𝐚𝐫 𝐃𝐒𝐀 𝐒𝐡𝐞𝐞𝐭 (𝟒𝟓𝟎 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬)"
+                android:textColor="#144970"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.708" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="𝐂𝐨𝐫𝐞 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬"
+                android:textColor="#144970"
+                android:textSize="29sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.708" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="00dp"
+                android:fillViewport="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/DSA_icon"
+                        android:layout_width="106dp"
+                        android:layout_height="103dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/logo_data_structure" />
+
+                    <ImageView
+                        android:id="@+id/Dbms_icon"
+                        android:layout_width="97dp"
+                        android:layout_height="98dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/dbms_logo" />
+
+                    <ImageView
+                        android:id="@+id/operating_system"
+                        android:layout_width="94dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/operating_system" />
+
+                    <ImageView
+                        android:id="@+id/oops_icon"
+                        android:layout_width="106dp"
+                        android:layout_height="98dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/oops_logo" />
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <ImageButton
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="25dp"
+                android:padding="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/Video_1"
+                android:onClick="Video_1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video_1">
+            </ImageButton>
+
+            <ImageButton
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="25dp"
+                android:padding="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="90dp"
+
+                android:onClick="video_3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video_3">
+            </ImageButton>
+
+            <ImageButton
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="25dp"
+                android:padding="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="100dp"
+
+                android:onClick="video_4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gsoc">
+            </ImageButton>
+
+            <ImageButton
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="25dp"
+                android:padding="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/Video_2"
+                android:onClick="Video_2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video_2">
+            </ImageButton>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    //For Whatsapp Integration
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:clickable="true"
+        android:id="@+id/my_whatsapp_icon"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="290dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo_whatsapp_png_pic_0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    //For Bottom Navigation Bar
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>
