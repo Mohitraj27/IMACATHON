@@ -10,3 +10,7 @@
 
 https://user-images.githubusercontent.com/87956374/173332000-72b5dc0a-c17b-4c0a-b9c6-a5b250a76785.mp4
 
+## Snapshots
+![WhatsApp Image 2022-06-16 at 1 52 44 PM](https://user-images.githubusercontent.com/87956374/174026676-60b29bb6-7767-42a0-ae53-848fd9981260.jpeg)
+![WhatsApp Image 2022-06-16 at 1 52 43 PM](https://user-images.githubusercontent.com/87956374/174026822-e0c7db08-660a-49ab-bc59-8323d40a1d95.jpeg)
+![WhatsApp Image 2022-06-16 at 1 52 43 PM (1)](https://user-images.githubusercontent.com/87956374/174026896-f6a71d91-841a-4dc7-afa1-b202333d9f05.jpeg)
